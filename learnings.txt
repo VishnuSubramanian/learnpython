@@ -1,0 +1,12 @@
+Exception Handling:
+
+We handle exceptions with two blocks, try and except.
+
+The try block is just that, the word try followed by a colon. Inside of the block,
+indented, is the code that you think might 'cause an issue.
+
+This block will only trigger if the code in the try caused a ValueError. If the code in the try triggered a
+TypeError instead, though, this code would never run.
+You'll want to create an except block for every type of exception your try block might cause.
+
+Finally, you'll probably want an else block. This block will happen if your try didn't cause any exceptions.
